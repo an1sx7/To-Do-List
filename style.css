@@ -111,4 +111,8 @@ li{
     #task-input{
         width:72%;
     }
+    .unchecked{
+        min-height:250px
+    }
+        
 }
