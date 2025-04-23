@@ -105,7 +105,7 @@ li{
     background: orangered;
     color:white;
 }
-@media (min-width:700px){
+@media (min-width:800px){
     .tasks-container{
         flex-direction: row;
         margin-top: 50px;
