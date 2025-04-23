@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <title>To-Do-List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>To-Do-<span>List</span></h1>
+  <div id="task-input">
+    <input type="text" placeholder="Add a task..." id="inp">
+  <i onclick="add()" class="material-symbols-outlined">
+    add
+  </i>
+  </div>
+  
+  <div class="tasks-container">
+    <div class="unchecked">
+      <h2>unchecked</h2>
+      <ol id="un">
+        
+      </ol>
+    </div>
+    
+    <div class="checked">
+      <button onclick="clearAll()">Clear All</button>
+      <h2>checked</h2>
+      <ul id="ch">
+        
+      </ul>
+    </div>
+  </div>
+  <br />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
