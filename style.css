@@ -112,7 +112,11 @@ li{
         width:72%;
     }
     .unchecked{
-        min-height:250px
+        min-height:240px;
+        flex:50%
+    }
+    .checked{
+        flex:50%
     }
         
 }
