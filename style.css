@@ -70,6 +70,7 @@ span{
     border-radius:10px;
     padding:0 10px;
     position:relative;
+    overflow-wrap:break-word;
 }
 .checked{
     width:100%;
@@ -78,6 +79,7 @@ span{
     padding:0 10px;
     border-radius:10px;
     position:relative;
+    overflow-wrap:break-word;
 }
 h2{
     color:var(--color);
