@@ -95,6 +95,7 @@ ul{
 }
 li{
     margin-bottom:20px;
+    text-wrap:wrap;
 }
 .checked button{
     position: absolute;
