@@ -56,3 +56,11 @@ setTimeout(()=>{
   list2.innerHTML=""
   localStorage.removeItem("ch")
 },delay)
+
+swal.fire({
+  title:"Information",
+  text:"if the task done drag it to cheked box and all checked tasks will cleared in 7 days",
+  icon:"info",
+  backdrop:false,
+  confirmButtonColor:"dodgerblue"
+})
