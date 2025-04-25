@@ -13,6 +13,7 @@ body {
     justify-content: center;
     color:white;
     user-select:none;
+    height:100vh;
 }
 i{
     color:var(--color);
@@ -122,13 +123,12 @@ li{
         width:72%;
     }
     .unchecked{
-        min-height:240px;
+        min-height:300px;
         flex:50%
     }
     .checked{
         flex:50%
+        min-height:280px;
     }
-    h1{
-        margin-top:100px
         
 }
