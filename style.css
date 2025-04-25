@@ -128,7 +128,7 @@ li{
     }
     .checked{
         flex:50%;
-        min-height:280px;
+        min-height:300px;
     }
         
 }
