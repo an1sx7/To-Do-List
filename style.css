@@ -127,7 +127,7 @@ li{
         flex:50%
     }
     .checked{
-        flex:50%
+        flex:50%;
         min-height:280px;
     }
         
