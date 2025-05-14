@@ -52,7 +52,7 @@ function clearAll(){
 }
 
 let delay=7* 24 * 60 * 60 * 1000
-setTimeout(()=>{
+setInterval(()=>{
   list2.innerHTML=""
   localStorage.removeItem("ch")
 },delay)
